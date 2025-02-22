@@ -1,9 +1,9 @@
 pipeline {
  tools{
-        jdk 'JAVA_HOME_WIN'
-		maven 'M2_HOME_WIN'
+        jdk 'JAVA_HOME_UBUNTU'
+		maven 'M2_HOME'
 	}	
-    agent { label "winslave" }
+    agent { label "ubuntuslave" }
 
     stages {
 	
